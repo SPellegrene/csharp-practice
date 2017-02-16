@@ -1,0 +1,17 @@
+Very similiar syntax to that of Javascript
+
+using System;
+public class StringPractice
+{
+    public static void Main()
+    {
+        string firstName = "Sam";
+        string lastName = "Pellegrene";
+        int age = 22;
+
+        string sentence = firstName + " " + lastName + " is " + age + " years old.";
+
+        Console.WriteLine(sentence); //Sam Pellegrene is 22 years old
+
+    }
+}

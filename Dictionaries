@@ -1,0 +1,26 @@
+
+*Dictionaries are special lists where every value in the list has a key which is also a variable.
+
+using System;
+using System.Collections.Generic;
+
+public class Hello
+{
+    public static void Main()
+    {
+        Dictionary<string, long> inventory = new Dictionary<string, long>();
+        inventory["apple"] = 3;
+        inventory["orange"] = 5;
+        inventory["banana"] = 2;
+
+        Console.WriteLine(inventory["apple"]);
+        Console.WriteLine(inventory["orange"]);
+        Console.WriteLine(inventory["banana"]);
+
+    }
+}
+
+* a long data type is is a 64-bit signed two's complement integer.
+Minimum value is -9,223,372,036,854,775,808(-2^63)
+Maximum value is 9,223,372,036,854,775,807 (inclusive)(2^63 -1)
+This type is used when a wider range than int is needed.

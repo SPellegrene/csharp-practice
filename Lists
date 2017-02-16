@@ -1,0 +1,40 @@
+
+using System;
+using System.Collections.Generic;
+
+public class ListPractice
+{
+    public static void Main()
+    {
+        List<int> primeNumbers = new List<int>();
+             primeNumbers.Add(2);
+             primeNumbers.Add(3);
+             primeNumbers.Add(5);
+             primeNumbers.Add(7);
+             primeNumbers.Add(11);
+
+
+        Console.WriteLine(primeNumbers.Count);
+        Console.WriteLine(primeNumbers[0]);
+        Console.WriteLine(primeNumbers[1]);
+        Console.WriteLine(primeNumbers[2]);
+        Console.WriteLine(primeNumbers[3]);
+        Console.WriteLine(primeNumbers[4]);
+
+    }
+}
+
+*AddRange:
+  numbers.AddRange(array);
+
+*Concatenation of Arrays:
+  food.AddRange(vegetables);
+  Console.WriteLine(food.Count);
+
+*Remove:
+  fruits.Remove(“banana”);
+  Console.WriteLine(fruits.Count);
+
+*RemoveAt:
+  fruits.RemoveAt(1);
+  Console.WriteLine(fruitsCount);
